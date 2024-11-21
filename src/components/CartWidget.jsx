@@ -5,9 +5,9 @@ const CartWidget = ({counter}) => {
     
     return(
         <div className="cartContainer">
-            <BsCart2 fontSize={'1.7rem'} color="white"/>
-            <Badge bg="danger">{counter}</Badge>
-        </div>
+            <BsCart2 className="cart-ico"/>
+            <Badge pill bg="danger">{counter}</Badge>
+        </div>    
     )
 }
 

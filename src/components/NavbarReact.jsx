@@ -1,27 +1,28 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import CartWidget from './CartWidget';
+import Container from 'react-bootstrap/Container'
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+import NavDropdown from 'react-bootstrap/NavDropdown'
+import CartWidget from './CartWidget'
+import { NavLink } from 'react-router-dom'
 
 function NavbarReact() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
+    <Navbar expand="md" className="bg-body-tertiary" bg="dark" data-bs-theme="dark" fixed="top">
       <Container>
-        <Navbar.Brand href="#home">Padel Shop</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+        <Navbar.Brand as={NavLink} to='/'><img src="/logo.png" alt="logo de la web" className='logo' /></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className='button-css'/>
+        <Navbar.Collapse id="basic-navbar-nav" className='gap-nav-cart'>
+          <Nav className="ms-auto">
+            <Nav.Link as={NavLink} to='/'>Inicio</Nav.Link>
             <NavDropdown title="Productos" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Nuevos</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item as={NavLink} to='/productos/nuevos'>Nuevos</NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to='/productos/ofertas' className="mt-1">
                 Ofertas
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Más Vendidos</NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to='/productos/mas vendidos' className="mt-1">Más vendidos</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <CartWidget counter={10}/>
+          <CartWidget counter={10} />
         </Navbar.Collapse>
       </Container>
     </Navbar>
