@@ -10,7 +10,7 @@ const CartItem = ({ prod }) => {
                 <div className='cart-item-info'>
                     <span>${prod.precio}</span>
                     <span>Unid: {prod.cantidad}</span>
-                    <span>${prod.cantidad * prod.precio}</span>
+                    <span>Total ${prod.cantidad * prod.precio}</span>
                     <span>{prod.marca}</span>
                 </div>
             </div>

@@ -136,7 +136,7 @@ body {
 
 .cart-item-cont {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     margin: 20px 0;
 }
@@ -148,7 +148,7 @@ body {
 }
 
 .cart-item img {
-    width: 5rem;
+    width: 100px;
 }
 
 .cart-item span{
