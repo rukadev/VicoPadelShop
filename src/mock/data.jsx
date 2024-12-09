@@ -1,16 +1,5 @@
-const productos = [
+export const productosDB = [
     {
-        id: '1',
-        nombre: 'HACK 03 COMFORT 23',
-        precio: 38000,
-        marca: 'bullpadel',
-        stock: 5,
-        img: '/paleta-1.png',
-        categoria: 'nuevos',
-        descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis alias nihil consequatur accusantium aliquid accusamus animi, laborum totam quibusdam in minima tempora, repudiandae facilis cupiditate? Quas perspiciatis ex dolorem at.'
-    },
-    {
-        id: '2',
         nombre: 'HACK 03 23',
         precio: 55000,
         marca: 'bullpadel',
@@ -20,7 +9,6 @@ const productos = [
         descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis alias nihil consequatur accusantium aliquid accusamus animi, laborum totam quibusdam in minima tempora, repudiandae facilis cupiditate? Quas perspiciatis ex dolorem at.'
     },
     {
-        id: '3',
         nombre: 'VERTEX 03 CTR 23',
         precio: 35000,
         marca: 'bullpadel',
@@ -30,7 +18,6 @@ const productos = [
         descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis alias nihil consequatur accusantium aliquid accusamus animi, laborum totam quibusdam in minima tempora, repudiandae facilis cupiditate? Quas perspiciatis ex dolorem at.'
     },
     {
-        id: '4',
         nombre: 'VERTEX 03 23',
         precio: 50000,
         marca: 'bullpadel',
@@ -40,7 +27,6 @@ const productos = [
         descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis alias nihil consequatur accusantium aliquid accusamus animi, laborum totam quibusdam in minima tempora, repudiandae facilis cupiditate? Quas perspiciatis ex dolorem at.'
     },
     {
-        id: '5',
         nombre: 'PRO LIGTH WOMAN',
         precio: 15000,
         marca: 'royal padel',
@@ -50,7 +36,6 @@ const productos = [
         descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis alias nihil consequatur accusantium aliquid accusamus animi, laborum totam quibusdam in minima tempora, repudiandae facilis cupiditate? Quas perspiciatis ex dolorem at.'
     },
     {
-        id: '6',
         nombre: 'EUROPE MASTER PRO',
         precio: 28000,
         marca: 'royal padel',
@@ -60,7 +45,6 @@ const productos = [
         descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis alias nihil consequatur accusantium aliquid accusamus animi, laborum totam quibusdam in minima tempora, repudiandae facilis cupiditate? Quas perspiciatis ex dolorem at.'
     },
     {
-        id: '7',
         nombre: 'ML10 PRO',
         precio: 45000,
         marca: 'nox',
@@ -70,7 +54,6 @@ const productos = [
         descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis alias nihil consequatur accusantium aliquid accusamus animi, laborum totam quibusdam in minima tempora, repudiandae facilis cupiditate? Quas perspiciatis ex dolorem at.'
     },
     {
-        id: '8',
         nombre: 'AMERICA VS EUROPA',
         precio: 44000,
         marca: 'nox',
@@ -80,7 +63,7 @@ const productos = [
         descrpcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis alias nihil consequatur accusantium aliquid accusamus animi, laborum totam quibusdam in minima tempora, repudiandae facilis cupiditate? Quas perspiciatis ex dolorem at.'
     },
     {
-        id: '9',
+
         nombre: 'AIR VIPER',
         precio: 40000,
         marca: 'babolat',
@@ -90,7 +73,6 @@ const productos = [
         descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis alias nihil consequatur accusantium aliquid accusamus animi, laborum totam quibusdam in minima tempora, repudiandae facilis cupiditate? Quas perspiciatis ex dolorem at.'
     },
     {
-        id: '10',
         nombre: 'METALBONE HRD',
         precio: 38000,
         marca: 'adidas',
@@ -100,7 +82,6 @@ const productos = [
         descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis alias nihil consequatur accusantium aliquid accusamus animi, laborum totam quibusdam in minima tempora, repudiandae facilis cupiditate? Quas perspiciatis ex dolorem at.'
     },
     {
-        id: '11',
         nombre: 'MATCH 3.1',
         precio: 17000,
         marca: 'adidas',
@@ -110,7 +91,6 @@ const productos = [
         descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis alias nihil consequatur accusantium aliquid accusamus animi, laborum totam quibusdam in minima tempora, repudiandae facilis cupiditate? Quas perspiciatis ex dolorem at.'
     },
     {
-        id: '12',
         nombre: 'DRIVE LIGTH 3.1',
         precio: 9000,
         marca: 'adidas',

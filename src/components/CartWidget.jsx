@@ -1,13 +1,14 @@
 import { BsCart2 } from "react-icons/bs"
 import { Badge } from "react-bootstrap"
+import { useCart } from "../context/CartContext"
 
-const CartWidget = ({counter}) => {
-    
-    return(
+const CartWidget = () => {
+    const { cartQuantity } = useCart()
+    return (
         <div className="cartContainer">
-            <BsCart2 className="cart-ico"/>
-            <Badge pill bg="danger">{counter}</Badge>
-        </div>    
+            <BsCart2 className="cart-ico" />
+            {cartQuantity() > 0 && <Badge className="cart-badge" bg="danger">{cartQuantity()}</Badge>}
+        </div>
     )
 }
 

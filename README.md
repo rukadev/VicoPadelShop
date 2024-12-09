@@ -1,8 +1,34 @@
-# React + Vite
+# Padel Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un proyecto realizado en el marco del aprendizaje del curso de React JS en Coderhouse, donde creé un e-commerce. Los productos que ofrece son paletas de pádel, y el usuario puede seleccionar productos para luego generar una orden de compra.
 
-Currently, two official plugins are available:
+Previsualización
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](/public/readme-img.png)
+
+### Instalación
+
+- Clonar repositorio
+- Ejecutar npm install para instalar dependencias y crear la carpeta node_modules
+- Ejecutar npm run dev para levantarlo en servidor local
+
+### Host
+
+Link del proyecto online [Padel Shop]()
+
+### Librerias utilizadas en este proyecto
+
+#### Relevantes
+
+- [Firebase](): base de datos
+- [React Bootstrap](): estilos de la app
+- [React Router Dom](): navegación por rutas
+
+#### Secundarias
+
+-[React Hot Toast](): toast 
+-[React Icons](): iconos 
+-[Sweet Alert 2](): alertas
+
+
+# Desarrollado por Matías Vico

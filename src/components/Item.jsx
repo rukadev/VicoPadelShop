@@ -18,7 +18,7 @@ function Item({ product }) {
                 <Button as={Link} to={`/item/${product.id}`} variant="primary">Ver más</Button>
             </Card.Body>
         </Card>
-    );
+    )
 }
 
 export default Item;
