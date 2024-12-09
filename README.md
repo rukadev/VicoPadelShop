@@ -2,7 +2,7 @@
 
 Un proyecto realizado en el marco del aprendizaje del curso de React JS en Coderhouse, donde creé un e-commerce. Los productos que ofrece son paletas de pádel, y el usuario puede seleccionar productos para luego generar una orden de compra.
 
-Previsualización
+### Previsualización
 
 ![image](/public/readme-img.png)
 
@@ -14,7 +14,7 @@ Previsualización
 
 ### Host
 
-Link del proyecto online [Padel Shop]()
+Link del proyecto online [Padel Shop](padel-shop-three.vercel.app)
 
 ### Librerias utilizadas en este proyecto
 
@@ -26,9 +26,9 @@ Link del proyecto online [Padel Shop]()
 
 #### Secundarias
 
--[React Hot Toast](): toast 
--[React Icons](): iconos 
--[Sweet Alert 2](): alertas
+- [React Hot Toast](): toast 
+- [React Icons](): iconos 
+- [Sweet Alert 2](): alertas
 
 
-# Desarrollado por Matías Vico
+## Desarrollado por [Matías Vico](https://github.com/rukadev)
