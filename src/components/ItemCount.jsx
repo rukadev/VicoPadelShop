@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const ItemCount = ({ stock, onAdd, initial }) => {
     const [count, setCount] = useState(initial)
@@ -31,7 +32,10 @@ const ItemCount = ({ stock, onAdd, initial }) => {
                     <button className='btn btn-primary' onClick={onAddHandler} disabled={count === 0 || stock === 0}>Comprar</button>
                 </>
             )}
-            {stock === 0 && <span className='no-hay-mas-stock'>No hay mas stock</span>}
+            {stock === 0 && <div className='contain-stock'>
+                <span className='no-hay-mas-stock'>No hay mas stock</span>
+                <Link to='/' className='btn btn-primary'>Volver al inicio</Link>
+            </div>}
         </div>
     )
 }
