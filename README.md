@@ -14,21 +14,21 @@ Un proyecto realizado en el marco del aprendizaje del curso de React JS en Coder
 
 ### Host
 
-Link del proyecto online [Padel Shop](padel-shop-three.vercel.app)
+Link del proyecto online [Padel Shop](https://padel-shop-three.vercel.app/)
 
 ### Librerias utilizadas en este proyecto
 
 #### Relevantes
 
-- [Firebase](): base de datos
-- [React Bootstrap](): estilos de la app
-- [React Router Dom](): navegación por rutas
+- [Firebase](https://firebase.google.com/) base de datos
+- [React Bootstrap](https://react-bootstrap.netlify.app/) estilos de la app
+- [React Router Dom](https://reactrouter.com/) navegación por rutas
 
 #### Secundarias
 
-- [React Hot Toast](): toast 
-- [React Icons](): iconos 
-- [Sweet Alert 2](): alertas
+- [React Hot Toast](https://react-hot-toast.com/) toast 
+- [React Icons](https://react-icons.github.io/react-icons/) iconos 
+- [Sweet Alert 2](https://sweetalert2.github.io/) alertas
 
 
 ## Desarrollado por [Matías Vico](https://github.com/rukadev)
