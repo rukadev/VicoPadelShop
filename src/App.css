@@ -207,6 +207,7 @@ body {
     margin: 20px 0;
     padding: 10px;
     color: #444;
+    min-height: 100vh;
 }
 
 .no-hay-mas-stock {
