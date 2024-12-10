@@ -33,11 +33,13 @@ const ItemListContainer = ({ greeting }) => {
 
     return (
         <div className="titleContainer">
-            <h1>{greeting}</h1>
-            <h2 className="span-categoria">{categoria}</h2>
             {loading
                 ? <Loader />
-                : <ItemList products={products} />}
+                : <div>
+                    <h1>{greeting}</h1>
+                    <h2 className="span-categoria">{categoria}</h2>
+                    <ItemList products={products} />
+                </div>}
         </div>
     )
 }
